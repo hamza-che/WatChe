@@ -47,6 +47,8 @@
 
 .contact .contact-form input:focus,
 .contact .contact-form textarea:focus {
+    -webkit-box-shadow: 0 0 5px #4948d4;
+    -moz-box-shadow: 0 0 5px #4948d4;
     box-shadow: 0 0 5px #4948d4;
     border: 1px solid #4948d4;
 }
