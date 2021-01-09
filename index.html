@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WatChe - Product Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Font awesome  -->
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <!-- Main css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Responsive css -->
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- Default skin -->
+  <link rel="stylesheet" href="css/skins/crimson.css">
+  <!-- Live style switcher -->
+  <link rel="stylesheet" title="blue" class="alternate-style blue" href="css/skins/blue.css" disabled>
+  <link rel="stylesheet" title="indigo" class="alternate-style indigo" href="css/skins/indigo.css" disabled>
+  <link rel="stylesheet" title="aqua" class="alternate-style aqua" href="css/skins/aqua.css" disabled>
+  <link rel="stylesheet" title="black" class="alternate-style black" href="css/skins/black.css" disabled>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="64">
+
+  <!-- Start Preloader -->
+  <div class="preloader">
+    <div class="loader">
+    </div>
+  </div>
+  <!-- End Of Preloader -->
+
+  <!-- Start Colors Options -->
+  <div class="colors-option">
+    <div class="options-content">
+      <h5 class="text-center text-capitalize">style switcher</h5>
+      <ul class="list-unstyled d-flex">
+        <li title="crimson" class="crimson active" data-color="crimson" onclick="setActiveStyle('crimson')"></li>
+        <li title="blue" class="blue" data-color="blue" onclick="setActiveStyle('blue')"></li>
+        <li title="indigo" class="indigo" data-color="indigo" onclick="setActiveStyle('indigo')"></li>
+        <li title="aqua" class="aqua" data-color="aqua" onclick="setActiveStyle('aqua')"></li>
+        <li title="black" class="black" data-color="black" onclick="setActiveStyle('black')"></li>
+      </ul>
+        <div class="gear-icon">
+          <i class="fas fa-cog gear"></i>
+        </div>
+    </div>
+  </div>
+  <!-- End Colors Options -->
+
+  <!-- Start Hedear Seection -->
+  <header class="header fixed-top">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#home"><i class="fab fa-watchman-monitoring"></i> WatChe</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faq">Faq</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- End Of Hedear Seection -->
+
+  <!-- Start Home Section -->
+  <section class="home" id="home">
+    <div class="bg-shapes">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="home-content">
+            <h1>Present your awesome product</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a href="#" class="btn mybtn1 text-uppercase">Buy For $150</a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-first order-lg-last">
+          <div class="home-img">
+            <img src="./img/watch-01.png" alt="watch-01">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Of Home Section -->
+
+  <!-- Start About Product Section -->
+  <section class="about-product" id="about">
+    <div class="container">
+      <div class="row">
+        <!-- Product image -->
+        <div class="col-sm-12 col-lg-6 d-flex">
+          <div class="product-img">
+            <img class="img-fluid" src="./img/watch-02.jpg" alt="product">
+          </div>
+        </div>
+        <!-- product description -->
+        <div class="col-sm-12 col-lg-6 order-first order-lg-last">
+          <div class="product-desc">
+            <span class="sm-heading text-uppercase">about product</span>
+            <h2>Awesome digital watch can make your life easier</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <ul class="product-features list-unstyled">
+              <li><i class="fas fa-check"></i> Our all products are high qualitye</li>
+              <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit,</li>
+              <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit,</li>
+              <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit,</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Of About Product Section -->
+
+  <!-- Start Features Section -->
+  <section class="features text-center" id="features">
+    <div class="container">
+      <span class="sm-heading">features</span>
+      <h2>Lorem ipsum dolor sit amet</h2>
+      <!-- First Row -->
+      <div class="row">
+        <!-- Feature -->
+        <div class="col-md-6 col-lg-4 d-flex">
+          <div class="feature col-lg-12">
+            <i class="fas fa-bell fa-3x"></i>
+            <h3 class="feat-heading">Notification Alart</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          </div>
+        </div> <!-- /.Feature -->
+        <!-- Feature -->
+        <div class="col-md-6 col-lg-4 d-flex">
+          <div class="feature col-lg-12">
+            <i class="fab fa-bluetooth fa-3x"></i>
+            <h3 class="feat-heading">Bluetooth</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          </div>
+        </div> <!-- /.Feature -->
+        <!-- Feature -->
+        <div class="col-md-6 col-lg-4 d-flex">
+          <div class="feature col-lg-12">
+            <i class="fas fa-wifi fa-3x"></i>
+            <h3 class="feat-heading">Support Wifi</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          </div>
+        </div> <!-- /.Feature -->
+
+        <!-- Feature -->
+        <div class="col-md-6 col-lg-4 d-flex">
+          <div class="feature col-lg-12">
+            <i class="fas fa-map-marker-alt fa-3x"></i>
+            <h3 class="feat-heading">GPS Tracking</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          </div>
+        </div> <!-- /.Feature -->
+        <!-- Feature -->
+        <div class="col-md-6 col-lg-4 d-flex">
+          <div class="feature col-lg-12">
+            <i class="fas fa-comments fa-3x"></i>
+            <h3 class="feat-heading">Live Chat</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          </div>
+        </div> <!-- /.Feature -->
+        <!-- Feature -->
+        <div class="col-md-6 col-lg-4 d-flex">
+          <div class="feature col-lg-12">
+            <i class="fas fa-camera fa-3x"></i>
+            <h3 class="feat-heading">Camera</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          </div>
+        </div> <!-- /.Feature -->
+      </div> <!-- /.First Row -->
+    </div>
+  </section>
+  <!-- End Of Features Section -->
+
+  <!-- Start Our Products Section -->
+  <section class="our-products text-center" id="products">
+    <div class="container">
+      <div class="row justify-content-center">
+        <!-- Start Section Title -->
+        <div class="section-title col-lg-7">
+          <span class="sm-heading">Our Products</span>
+          <h2>We have lots of excellent and high quality products</h2>
+        </div>
+        <!-- End Of Section Title -->
+      </div>
+      <div class="row">
+        <div class="owl-carousel" id="products-carousel">
+          <!-- Start Product Box -->
+          <div class="col-lg-12">
+            <div class="product">
+              <div class="product-img">
+                <img class="img-fluid" src="./img/products/1.jpg" alt="product">
+                <div class="overlay">
+                  <a href="#" class="btn mybtn1 text-uppercase">buy now</a>
+                </div>
+              </div>
+              <div class="product-content">
+                <div class="product-price">
+                  <span class="new-price">$49</span>
+                  <span class="old-price">$95</span>
+                </div>
+                <div class="product-name">
+                  Simple Product 001
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Of Product Box -->
+          <!-- Start Product Box -->
+          <div class="col-lg-12">
+            <div class="product">
+              <div class="product-img">
+                <img class="img-fluid" src="./img/products/2.jpg" alt="product">
+                <div class="overlay">
+                  <a href="#" class="btn mybtn1 text-uppercase">buy now</a>
+                </div>
+              </div>
+              <div class="product-content">
+                <div class="product-price">
+                  <span class="new-price">$49</span>
+                  <span class="old-price">$95</span>
+                </div>
+                <div class="product-name">
+                  Simple Product 002
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Of Product Box -->
+          <!-- Start Product Box -->
+          <div class="col-lg-12">
+            <div class="product">
+              <div class="product-img">
+                <img class="img-fluid" src="./img/products/3.jpg" alt="product">
+                <div class="overlay">
+                  <a href="#" class="btn mybtn1 text-uppercase">buy now</a>
+                </div>
+              </div>
+              <div class="product-content">
+                <div class="product-price">
+                  <span class="new-price">$49</span>
+                  <span class="old-price">$95</span>
+                </div>
+                <div class="product-name">
+                  Simple Product 003
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Of Product Box -->
+          <!-- Start Product Box -->
+          <div class="col-lg-12">
+            <div class="product">
+              <div class="product-img">
+                <img class="img-fluid" src="./img/products/4.jpg" alt="product">
+                <div class="overlay">
+                  <a href="#" class="btn mybtn1 text-uppercase">buy now</a>
+                </div>
+              </div>
+              <div class="product-content">
+                <div class="product-price">
+                  <span class="new-price">$49</span>
+                  <span class="old-price">$95</span>
+                </div>
+                <div class="product-name">
+                  Simple Product 004
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Of Product Box -->
+          <!-- Start Product Box -->
+          <div class="col-lg-12">
+            <div class="product">
+              <div class="product-img">
+                <img class="img-fluid" src="./img/products/5.jpg" alt="product">
+                <div class="overlay">
+                  <a href="#" class="btn mybtn1 text-uppercase">buy now</a>
+                </div>
+              </div>
+              <div class="product-content">
+                <div class="product-price">
+                  <span class="new-price">$49</span>
+                  <span class="old-price">$95</span>
+                </div>
+                <div class="product-name">
+                  Simple Product 005
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Of Product Box -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Of Our Products Section -->
+
+  <!-- Start testimonials Section -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-7">
+          <div class="section-title text-center">
+            <span class="sm-heading">testimonials</span>
+            <h2>Our Satisfied Customer Feedback</h2>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonials -->
+      <div class="testims">
+        <div class="row">
+          <div class="owl-carousel" id="testims-carousel">
+              <!-- Testimonial -->
+              <div class="col-lg-12">
+                <div class="testim">
+                  <p><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <i class="fas fa-quote-right"></i></p>
+                  <div class="stars">
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                  </div>
+                  <div class="client">
+                    <img class="client-img rounded-circle img-fluid" src="./img/testimonial/3.jpg" alt="client">
+                    <div class="client-info">
+                      <h6 class="client-name text-capitalize">hamza chenguiti</h6>
+                      <span class="client-job">CEO WatChe</span>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- /.Testim -->
+              <!-- Testimonial -->
+              <div class="col-lg-12">
+                <div class="testim">
+                  <p><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <i class="fas fa-quote-right"></i></p>
+                  <div class="stars">
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                  </div>
+                  <div class="client">
+                    <img class="client-img rounded-circle img-fluid" src="./img/testimonial/2.jpg" alt="client">
+                    <div class="client-info">
+                      <h6 class="client-name text-capitalize">marie lenormand</h6>
+                      <span class="client-job">CEO WatChe</span>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- /.Testim -->
+              <!-- Testimonial -->
+              <div class="col-lg-12">
+                <div class="testim">
+                  <p><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <i class="fas fa-quote-right"></i></p>
+                  <div class="stars">
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                  </div>
+                  <div class="client">
+                    <img class="client-img rounded-circle img-fluid" src="./img/testimonial/1.jpg" alt="client">
+                    <div class="client-info">
+                      <h6 class="client-name text-capitalize">jhon williams</h6>
+                      <span class="client-job">CEO WatChe</span>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- /.Testim -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Of testimonials Section -->
+
+  <!-- Start FAQ Section -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="row justify-content-center">
+        <!-- Start Section Title -->
+        <div class="section-title col-lg-7 text-center">
+          <span class="sm-heading text-uppercase">faq</span>
+          <h2>Frequently Asked Questions</h2>
+        </div>
+        <!-- End Of Section Title -->
+      </div>
+
+      <!-- First Row -->
+      <div class="row">
+        <!-- Question -->
+        <div class="col-lg-6">
+          <h4 class="question font-weight-bold">
+            How can I buy the watch?
+          </h4>
+          <p class="answer">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <!-- Question -->
+        <div class="col-lg-6">
+          <h4 class="question font-weight-bold">
+            How can I buy the watch?
+          </h4>
+          <p class="answer">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div> <!-- /.First Row -->
+      <!-- Second Row -->
+      <div class="row">
+        <!-- Question -->
+        <div class="col-lg-6">
+          <h4 class="question font-weight-bold">
+            How can I buy the watch?
+          </h4>
+          <p class="answer">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <!-- Question -->
+        <div class="col-lg-6">
+          <h4 class="question font-weight-bold">
+            How can I buy the watch?
+          </h4>
+          <p class="answer">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div> <!-- /.Second Row -->
+      <!-- Third Row -->
+      <div class="row">
+        <!-- Question -->
+        <div class="col-lg-6">
+          <h4 class="question font-weight-bold">
+            How can I buy the watch?
+          </h4>
+          <p class="answer">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <!-- Question -->
+        <div class="col-lg-6">
+          <h4 class="question font-weight-bold">
+            How can I buy the watch?
+          </h4>
+          <p class="answer">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div> <!-- /.Third Row -->
+      <div class="send-msg text-center">
+        <span class="font-weight-bold">Any Question?</span> <address>chenguitiha@gmail.com</address>
+      </div>
+    </div>
+  </section>
+  <!-- End Of FAQ Section -->
+
+  <!-- Start Newsletter Section -->
+  <section class="newsletter text-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <!-- Start Section Title -->
+        <div class="section-title col-lg-7 text-center">
+          <span class="sm-heading text-uppercase">Newsletter</span>
+          <h2>Subscribe To Get Updates</h2>
+        </div>
+        <!-- End Of Section Title -->
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-7">
+          <form>
+            <input type="email" placeholder="Enter Your Email">
+            <button class="text-uppercase btn mybtn1" type="submit" href="mailto:chenguitiha@gmail.com"><span>subscribe</span> <i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Of Newsletter Section -->
+
+  <!-- Start Contact Us -->
+  <div class="contact" id="contact">
+    <div class="container">
+      <!-- Start Section Title -->
+      <div class="row justify-content-center">
+        <div class="section-title col-lg-7 text-center">
+          <span class="sm-heading text-uppercase">Contact us</span>
+          <h2>Lorem ipsum dolor sit amet</h2>
+        </div>
+      </div>
+      <!-- End Of Section Title -->
+      <div class="row">
+        <!-- Contact Form -->
+        <div class="col-lg-7">
+          <form class="contact-form">
+            <!-- Name and email fields -->
+            <div class="row">
+              <div class="col-lg-6">
+              <input class="name" type="text" placeholder="Your Name">
+              </div>
+              <div class="col-lg-6">
+              <input class="email" type="email" placeholder="Your Email">
+              </div>
+            </div> <!-- /.Name and email fiealds -->
+            <input class="subject" type="text" placeholder="Subject">
+            <textarea cols="30" rows="10" placeholder="Message"></textarea>
+            <button class="btn mybtn1 text-uppercase" type="submit">send message</button>
+          </form>
+        </div> <!-- /.Contact Form -->
+        <!-- Contact info -->
+        <div class="col-lg-5 order-first order-md-last">
+          <div class="contact-info d-lg-flex align-content-around flex-wrap">
+            <!-- contact info -->
+            <div class="info d-flex">
+              <div class="info-icon d-flex"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="info-content">
+                <h5 class="text-capitalize">location</h5>
+                <span>B261, Laghouat,122222</span>
+              </div>
+            </div> <!-- /.Contact info -->
+            <!-- contact info -->
+            <div class="info d-flex">
+              <div class="info-icon d-flex"><i class="fas fa-envelope"></i></div>
+              <div class="info-content">
+                <h5 class="text-capitalize">Email</h5>
+                <span>chenguitiha@gmail.com</span>
+              </div>
+            </div> <!-- /.Contact info -->
+            <!-- contact info -->
+            <div class="info d-flex">
+              <div class="info-icon d-flex"><i class="fas fa-phone"></i></div>
+              <div class="info-content">
+                <h5 class="text-capitalize">Call us on</h5>
+                <span>9100-000-000</span>
+              </div>
+            </div> <!-- /.Contact info -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Of Contact Us -->
+
+  <!-- Start Footer -->
+  <section class="footer text-center">
+    <div class="container">
+      <div class="col-lg-7 m-auto">
+        <h2><i class="fab fa-watchman-monitoring"></i> WatChe</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae veritatis porro rem ipsum? Quia fuga nobis vel asperiores accusamus consectetur.</p>
+        <div class="footer-icons d-flex justify-content-center">
+          <div class="icon"><a href="https://www.facebook.com/mizou.catalonia.1" target="_blank"><i class="fab fa-facebook-f"></i></a></div>
+          <div class="icon"><a href="https://twitter.com/hamza_ch_" target="_blank"><i class="fab fa-twitter"></i></a></div>
+          <div class="icon"><a href="https://www.instagram.com/hamza_che_/" target="_blank"><i class="fab fa-instagram"></i></a></div>
+          <div class="icon"><a href="https://www.linkedin.com/in/hamza-chenguiti-a8619a1ba/" target="_blank"><i class="fab fa-linkedin-in"></i></a></div>
+          <div class="icon"><i class="fab fa-youtube"></i></div>
+        </div>
+      </div>
+
+    </div>
+    <div class="under-footer font-weight-normal">
+      Copyright &copy; WatChe 2021
+    </div>
+  </section>
+  <!-- End Of Footer -->
+
+  <!-- Jquery -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Popper -->
+  <script src="js/popper.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Owl Carousel -->
+  <script src="js/owl.carousel.min.js"></script>
+  <!-- main -->
+  <script src="js/main.js"></script>
+  <!-- Active Style -->
+  <script src="js/activeStyle.js"></script>
+</body>
+</html>

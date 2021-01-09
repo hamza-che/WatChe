@@ -1,0 +1,56 @@
+.header,
+.header .navbar-light .navbar-toggler-icon,
+.header .navbar-light .navbar-toggler-icon:before,
+.header .navbar-light .navbar-toggler-icon:after,
+.home,
+.features .feature:hover,
+.our-products .owl-carousel .owl-nav button.owl-next,
+.our-products .owl-carousel .owl-nav button.owl-prev,
+.testimonials::after,
+.newsletter::after,
+.newsletter form .btn, 
+.contact .contact-form .btn,
+.footer {
+    background-color: #222222;
+}
+
+.header.scrolled {
+    background-color: rgba(34, 34, 34, .8);
+}
+
+.mybtn1,
+.mybtn1:hover,
+.sm-heading,
+.about-product .product-features li i,
+.features .feature i,
+.our-products .product-price .new-price,
+.testimonials .testim .client-info .client-name,
+.testimonials .owl-carousel .owl-nav button.owl-next,
+.testimonials .owl-carousel .owl-nav button.owl-prev,
+.faq .send-msg address,
+.contact .info .info-icon,
+.contact .info h5,
+.footer .footer-icons .icon:hover,
+.footer .footer-icons .icon:hover a {
+    color: #222222;
+}
+
+.sm-heading {
+    display: inline-block;
+    padding: 0 0.4rem;
+    background-color: rgba(34, 34, 34, .2);
+}
+
+.testimonials .testim .client-img {
+    border-color: #222222;
+}
+
+.contact .contact-form input:focus,
+.contact .contact-form textarea:focus {
+    box-shadow: 0 0 5px #222222;
+    border: 1px solid #222222;
+}
+
+.preloader .loader {
+    border-right-color: #222222;
+}
